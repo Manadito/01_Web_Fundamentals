@@ -1,0 +1,323 @@
+/* RESET */
+* {
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+/* TOP CONTAINER/MENU */
+.top-container {
+    display: flex;
+    height: 80px;
+}
+.menu-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-grow: 1;
+    width: 200px;
+    height: 80px;
+    background-color: black;
+}
+.profile {
+    display: flex; /* Converted to a flex object in order to align items  */
+    color: white;
+    align-items: center;
+}
+.menu {
+    width: 603px;
+    align-items: center;
+    display: flex;
+    padding: 20px 0px 20px 20px;
+}
+.links {
+    display: flex;
+    flex-basis: 483px;
+    list-style-type: none;
+    color: white;
+}
+li {
+    padding: 20px;
+}
+button {
+    height: 34px;
+    width: 120px;
+    font-size: 20px;
+    background-color: #17a3b9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+/* BOTTOM CONTAINER/BODY */
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+/* COLUMN 1 */
+.col-1 {
+    flex-basis: 450px;
+    height: 700px;
+    background-color: white;
+}
+/* USER JANE DOE PROFILE */
+.crd-1 {
+    position: relative;
+    margin-top: 20px;
+    height: 319px;
+    background-color: violet;
+}
+.crd-1-hd {
+    background-color: #17a3b9;
+    height: 100px;
+}
+.crd-1-bdy {
+    background-color: white;
+    height: 215px;
+    border-left: 4px solid #cecfce;
+    border-bottom: 4px solid #cecfce;
+    border-right: 4px solid #cecfce;
+}
+.user-jd {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.location {
+    padding-top: 10px;
+    padding-left: 23px;
+    display: flex;
+}
+.map-marker {
+    width: 14px;
+}
+.seattle {
+    padding-left: 10px;
+}
+.description {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.settings {
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+}
+.gear {
+    width: 20px;
+}
+.edit {
+    padding-left: 10px;
+    color: #17a3b9;
+    text-decoration: underline;
+}
+.jane {
+    position: absolute;
+    width: 100px;
+    margin-top: -280px;
+    margin-left: 22px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px; 
+}
+/* EDUCATION */
+.crd-2 {
+    margin-top: 20px;
+    height: 200px;
+    background-color: black;
+}
+.crd-2-hd {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.education {
+    margin-left: 20px;
+}
+.crd-2-bdy {
+    height: 150px;
+    background-color: white;
+    border-left: 4px solid #cecfce;
+    border-bottom: 4px solid #cecfce;
+    border-right: 4px solid #cecfce;
+    padding-left: 14px;
+}
+h2 {
+    padding-top: 10px;
+}
+.date {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #a9aaa9;
+}
+/* COLUMN 2 */
+.col-2 {
+    flex-basis: 250px;
+    height: 700px;
+    background-color: white;
+    margin-left: 20px;
+}
+/* CONNECTION REQUESTS */
+.con-1 {
+    margin-top: 20px;
+    height: 200px;
+    background-color: violet;
+}
+.con-1-hd {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    padding-left: 10px;
+}
+.circle-2 
+{
+    background-color: #cecfce;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+.con-reqs {
+    color: white;
+    padding-left: 10px;
+}
+.con-1-bdy {
+    background-color: white;
+    height: 150px;
+    border-left: 4px solid #cecfce;
+    border-bottom: 4px solid #cecfce;
+    border-right: 4px solid #cecfce;
+}
+.req-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 10px;
+}
+.con-profile {
+    display: flex;
+    flex-basis: 164px;
+}
+.todd-s {
+    padding-left: 10px;
+}
+.icons {
+    display: flex;
+    justify-content: end;
+    flex-basis: 70px;
+}
+.accept {
+    padding-right: 10px;
+}
+.req-2 {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 10px;
+}
+.phil-s {
+    padding-left: 10px;
+}
+.connections {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+.accept {
+    height: 25px;
+    width: 25px;
+}
+.close {
+    height: 25px;
+    width: 25px;
+}
+/* USER CONNECTIONS */
+.con-2 {
+    margin-top: 20px;
+    height: 278px;
+    background-color: black;
+}
+.con-2-hd {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    padding-left: 10px;
+}
+.circle-500 {
+    background-color: #cecfce;
+    height: 20px;
+    width: 45px;
+    border-radius: 50%;
+    text-align: center; 
+}
+.your-cons {
+    color: white;
+    padding-left: 10px;
+}
+.con-2-bdy {
+    background-color: white;
+    height: 170px;
+    border-left: 4px solid #cecfce;
+    border-bottom: 4px solid #cecfce;
+    border-right: 4px solid #cecfce;
+}
+.conx-1 {
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+.adrien-s {
+    padding-left: 10px;
+}
+.conx-2 {
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+.anne-s {
+    padding-left: 10px;
+}
+.conx-3 {
+    display: flex;
+    align-items: items;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+.alayne-s {
+    padding-left: 10px;
+}
+.conx-4 {
+    display: flex;
+    align-items: items;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+.arry-s {
+    padding-left: 10px;
+}
+.con-2-view {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    padding-left: 6px;
+    border-left: 4px solid #cecfce;
+    border-bottom: 4px solid #cecfce;
+    border-right: 4px solid #cecfce;
+    color: #17a3b9;
+    text-decoration: underline;
+}
+

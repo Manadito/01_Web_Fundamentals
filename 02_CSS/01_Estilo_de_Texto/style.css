@@ -1,0 +1,25 @@
+h1 {
+    background-color: #000000 ;
+    color: #fffefe ;
+    text-align: left;
+    font-family: monospace;
+    font-style: normal;
+}
+h2 {
+    background-color: #663399 ;
+    color: #fffefe;
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+}
+h3 {
+    background-color: #9ec5f9 ;
+    color: #2b215b;
+    text-align: right;
+    font-family: monospace;
+    font-style: normal;
+    text-decoration: underline;
+}
+span {
+    color:#01fffe ;
+}
