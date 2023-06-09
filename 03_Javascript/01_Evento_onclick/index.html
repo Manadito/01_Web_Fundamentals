@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos onclick</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container"> <!-- MAIN CONTAINER --> 
+        <div class="nav-bar"> <!-- NAVIGATION BAR --> 
+            <span class="title">Dojonary</span>
+            <div class="search">
+                <input type="search" id="search" name="search" placeholder="search"> 
+                <button type="button" id="login" onclick="loginChange(this)">login</button>
+            </div>    
+        </div>
+        <div class="body"> <!-- MAIN CONTENT BODY CONTAINER --> 
+            <div id="col-1"> <!-- COLUMN 1 CONTAINER --> 
+                <div class="def"> <!-- DEFINITION 1 --> 
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <p class="plural">Plural: <span class="plural">ninjas</span></p>
+                        <button class="like" id="like-1" onclick="alert('Ninja was liked')">likes</button>
+                    </div>
+                    <div class="definition">
+                        <p class="meaning">A practitioner skilled in the<br> <span class="meaning">Japanese</span> art of <span class="meaning">ninjutsu</span></p>
+                    </div>
+                </div>
+                <div class="def" id="def-margin"> <!-- DEFINITION 2 --> 
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <p class="plural">Plural: <span class="plural">ninjas</span></p>
+                        <button class="like" id="like-2" onclick="alert('Ninja was liked')">likes</button>
+                    </div>
+                    <div class="definition">
+                        <p class="meaning">A <span class="meaning">programmer</span> who breaks<br> down problems with <span class="meaning">zen</span>-like<br> focus</p>
+                    </div>
+                </div>
+            </div>
+            <div id="col-2"> <!-- COLUMN 2 CONTAINER --> 
+                <div id="def-search">
+                    <div id="dojonary">
+                        <p class="def-you">Dojonary is<br> defined by <span class="you">YOU</span></p>
+                        <button id="add-def" onclick="removeDefButton(this)">Add definition</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me gusta Parte 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container"> <!-- MAIN CONTAINER --> 
+        <div class="top-bar"> <!-- TOP BAR --> 
+            <h1 class="network">Network</h1>
+        </div>
+        <div class="page"> <!-- MAIN BODY CONTAINER --> 
+            <div class="your-feed-container"> <!-- YOUR FEED TITLE --> 
+                <h1 class="your-feed">Your Feed</h1>
+            </div>
+            <div class="columns"> <!-- COLUMNS CONTAINER --> 
+                <div class="left-col-container"> <!-- LEFT COLUMN --> 
+                    <div class="left-col">
+                        <img class="avatar" src="images/Baby_Foxito.png" alt="avatar">
+                        <a class="add-avatar" href="#">Add an avatar</a>
+                        <span class="user">James Doe</span>
+                    </div>
+                </div>
+                
+                <div class="right-col"> <!-- RIGHT COLUMN --> 
+                    <div class="card"> <!-- CARD 1 --> 
+                        <div class="card-top">
+                            <div class="name-container">
+                                <span class="name">Neil M</span>
+                            </div>
+                            <div class="likes-container">
+                                <span id="neil-likes">9</span>
+                                <span>like(s)</span>
+                                <button class="button-style" onclick="neilLikes()">Like</button>
+                            </div> 
+                        </div>
+                        <p>I just set up this new discord bot, let me<br> know what you all think. <a href="#">link</a></p>
+                    </div>
+                    <div class="card"> <!-- CARD 2 --> 
+                        <div class="card-top">
+                            <div class="name-container">
+                                <span class="name">Nichole K</span>
+                            </div>
+                            <div class="likes-container">
+                                <span id="nichole-likes">12</span>
+                                <span>like(s)</span>
+                                <button class="button-style" onclick="nicholeLikes()">Like</button>
+                            </div> 
+                        </div>
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                    <div class="card"> <!-- CARD 3 --> 
+                        <div class="card-top">
+                            <div class="name-container">
+                                <span class="name">Jim R</span>
+                            </div>
+                            <div class="likes-container">
+                                <span id="jim-likes">9</span>
+                                <span>like(s)</span>
+                                <button class="button-style" onclick="jimLikes()">Like</button>
+                            </div> 
+                        </div>
+                        <p>I can't stop listening to the <a href="#">new album</a>.<br> Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

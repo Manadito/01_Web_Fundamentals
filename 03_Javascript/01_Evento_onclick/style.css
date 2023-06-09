@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: white;
+    height: 700px;
+}
+/* NAVIGATION BAR STYLING */
+.nav-bar {
+    width: 650px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cccdcd;
+    height: 50px;
+}
+.title {
+    margin-left: 20px;
+}
+span {
+    font-size: 30px;
+    font-weight: bold;
+}
+.search {
+    display: flex;
+    margin-right: 25px;
+}
+#search {
+    padding-left: 5px;
+    width: 250px;
+    height: 30px;
+}
+#login {
+    background-color: #2b78e4;
+    color: white;
+    margin-left: 50px;
+    height: 30px;
+    width: 70px;
+    border: solid 2px black;
+    box-shadow: 2px 5px black;
+}
+/* MAIN PAGE BODY STYLING */
+.body {
+    width: 660px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 650px;
+}
+/* COLUMN 1 STYLING */
+#col-1 {
+    margin-top: 20px;
+    background-color: white;
+    height: 460px;
+    margin-right: 20px;
+}
+.def {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 180px;
+    border: solid 2px black;
+}
+.word {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.plural {
+    font-size: 15px;
+}
+span.plural {
+    font-style: italic;
+    font-weight: lighter;
+}
+h3 {
+    margin: 5px 0px 10px 0px;
+}
+.like {
+    height: 30px;
+    width: 100px;
+    margin: 25px 0px 0px 0px;
+    background-color: #fed967;
+    border: solid 2px black;
+    box-shadow: 5px 5px black;
+}
+.definition {
+    text-align: initial;
+    margin-left: 15px;
+    margin-right: 40px;
+}
+#def-margin { /* MARGIN SEPARATION BETWEEN DEFINITION BOXES */
+    margin-top: 20px;
+}
+.meaning {
+    font-size: 20px;
+}
+span.meaning {
+    color: #2b78e4;
+    text-decoration: underline;
+}
+/* COLUMN 2 STYLING */
+#col-2 {
+    margin-top: 20px;
+    height: 480px;
+}
+#def-search {
+    display: flex;
+    align-items: center;
+    height: 130px;
+    border: solid 2px black;
+}
+#dojonary {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.def-you {
+    font-size: 20px;
+    text-align: initial;
+    margin-bottom: 10px;
+}
+.you {
+    font-size: 20px;
+    font-weight: bold;
+}
+#add-def {
+    height: 30px;
+    width: 160px;
+    background-color: #93c47d;
+    text-align: center;
+    border: solid 2px black;
+    box-shadow: 5px 5px black;
+}
